@@ -1,0 +1,17 @@
+Solution represented as follows:
+
+int main(void) {
+	int T,N,k,c=0,p;
+	scanf("%d",&T);
+	for(k=0;k<T;k++)
+	{c=0;
+		scanf("\n%d",&N);
+		do
+		{p=N/5;
+		c=c+N/5;
+		N=N/5;
+		}while(p!=0);
+		printf("\n%d",c);
+	}
+	return 0;
+	} 
