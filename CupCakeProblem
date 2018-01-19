@@ -1,0 +1,26 @@
+
+For finding maximum cupcake left for chef after package.
+Execution Time :0.00 sec
+Memory Intake :9.2M
+
+#include<stdio.h>
+ 
+int main()
+{
+long int x,i;
+int a;
+scanf("%d",&a);
+for(i=1;i<=a;i++)
+ { 
+  scanf("%ld",&x);
+  
+  if(x&1)
+  {
+  printf("\n%ld",(x+1)/2);
+  }
+  else
+  printf("\n%ld",(x/2+1));
+ 
+ 
+}
+}  
