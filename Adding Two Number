@@ -1,0 +1,14 @@
+Solution is as follows with Compile Time of 0.00sec and M/M consumption 10.1M in gcc(6.2) compiler.
+
+#include<stdio.h>
+ int main()
+ {
+ int a,b,x,i;
+ scanf("%d",&x);
+ for(i=1;i<=x;i++)
+ {
+  scanf("%d%d",&a,&b);
+  printf("\n%d",a+b);
+  }
+  }
+ 
