@@ -1,4 +1,7 @@
-Solution is as follows with Compile Time of 0.00sec and M/M consumption 10.1M in gcc(6.2) compiler.
+Solution is as follows with:
+Compile Time : 0.00sec .
+M/M consumption : 10.1M .
+in gcc(6.2) compiler.
 
 #include<stdio.h>
  int main()
