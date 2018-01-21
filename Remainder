@@ -1,0 +1,17 @@
+Execution Tme : 0.00 sec
+Memory        : 9.2M
+Compiler      : gcc(6.2)
+
+#include<stdio.h>
+int main()
+{
+ int x,a,b,rem,i;
+ scanf("%d",&x);
+ 
+ for(i=1;i<=x;i++)
+ {
+  scanf("%d%d",&a,&b);
+  rem=a%b;
+  printf("\n%d",rem);
+ }
+} 
