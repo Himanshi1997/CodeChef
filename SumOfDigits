@@ -1,0 +1,25 @@
+Execution Time : 0.00 sec
+Memory         : 9.2 M
+
+#include<stdio.h>
+int main()
+{
+int i,x,n;
+scanf("%d",&x);
+ 
+for(i=1;i<=x;i++)
+{
+ 
+ scanf("%d",&n);
+ int a,sum=0;
+ 
+  while(n!=0)
+  {
+    a = n%10;
+    sum += a;
+    n = n/10;
+  }
+ printf("\n%d",sum);
+    
+}
+} 
