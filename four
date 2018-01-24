@@ -1,0 +1,30 @@
+not working
+help me with this problem.
+QUES - To find out no. of four in a given no. .
+
+#include<stdio.h>
+int main()
+ {
+  long long int x,i,n;
+  
+  scanf("%lld",&x);
+  
+  for (i=1;i<=x;i++)
+  {
+  long long int t;
+   scanf("%lld",&n);
+   
+   while(n!=0)
+    {
+     
+     if(n%10==4)
+     {t++;}
+     n=n/10;
+     
+     }
+  
+  printf("\n%lld",t);
+  
+  }
+  
+} 
